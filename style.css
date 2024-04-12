@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: hsl(47, 88%, 63%);
+  }
+
+  .main {
+    width: 391px;
+    height: 530px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  text-align: center; 
+  background-color: white;
+  /* padding: 5px; */
+  border-radius: 15px;
+}
+
+img {
+    width: 333px;
+    height: 199px;
+    border-radius: 15px;
+}
+
+span {
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.btn {
+    width: 82px;
+    height: 20px;
+    background-color: hsl(47, 88%, 63%);
+    color: Black: hsl(0, 0%, 7%);
+}
+
+p {
+    font-size: 16px;
+    color:  hsl(0, 0%, 50%);
+    font-weight: 500;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
